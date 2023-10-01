@@ -1,8 +1,3 @@
-# Simple Ticket System for Discord v14
-
-Here's a basic example of code for a simple ticket system using Discord.js version 14:
-
-```javascript
 const { Client } = require('discord.js');
 
 const client = new Client();
@@ -52,4 +47,4 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login('BOT_TOKEN')```
+client.login('BOT_TOKEN')
